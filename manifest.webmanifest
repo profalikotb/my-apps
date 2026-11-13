@@ -1,0 +1,25 @@
+{
+  "name": "تطبيقات أ.د. على قطب — Prof Ali Kotb Apps",
+  "short_name": "My Apps",
+  "description": "All of Prof Ali Kotb's apps in one place",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#f4f2ec",
+  "theme_color": "#163a5a",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Smart Patient Queue", "url": "https://call-patients-order.vercel.app" },
+    { "name": "NeuroScholar AI", "url": "https://neuroscholar-ai-psi.vercel.app" },
+    { "name": "Prayer Times", "url": "https://prayertimealikotb.vercel.app" },
+    { "name": "Clinic Booking", "url": "https://clinic-nine-ivory.vercel.app" }
+  ]
+}
