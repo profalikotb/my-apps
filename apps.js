@@ -33,5 +33,13 @@ window.GROUPS = [
   { id: "research", en: "Research & teaching", ar: "البحث والتعليم" },
   { id: "personal", en: "Personal", ar: "شخصي" },
   { id: "web", en: "Websites", ar: "المواقع" },
+  { id: "auto", en: "New — auto-detected from Vercel", ar: "جديد — تلقائي من Vercel" },
   { id: "mine", en: "My shortcuts", ar: "اختصاراتي" },
+];
+
+// Vercel projects to never show automatically (project names, as in the Vercel dashboard).
+// Any new Vercel project NOT listed in APPS above appears by itself in «جديد — تلقائي».
+// To give it an Arabic name / icon / proper group, add it to APPS — it then leaves the auto group.
+window.EXCLUDE = [
+  "my-apps", // this launcher
 ];
